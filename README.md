@@ -22,15 +22,11 @@ Análisis de Resultados: Se analizan los datos obtenidos para comprender la tran
 
 ## Instalación
 
-Clona este repositorio en tu máquina local.
-Asegúrate de tener Python y las siguientes bibliotecas instaladas: matplotlib, numpy.
-Ejecuta el script principal para generar las posiciones finales de los fotones.
+1. Clona este repositorio en tu máquina local.
+2. Asegúrate de tener Python y las siguientes bibliotecas instaladas: matplotlib, numpy, mpi4py.
+3. Ejecuta el script principal llamado parallel.py desde terminal  /usr/bin/mpiexec -n 4 python3 parallel.py
+4. Grafica los resultados del modelo en paralelo y en serie con el repositorio de CompuAvanzada2.ipynb en un jupyter notebook
 
-## Uso
-Una vez que hayas instalado las dependencias y clonado el repositorio, simplemente ejecuta el script. Esto generará las posiciones finales de los fotones y mostrará una visualización en 3D de las mismas.
-
-Contribuir
-Las contribuciones son bienvenidas. Si tienes sugerencias o encuentras algún error, por favor crea un "issue" o envía un "pull request".
 
 ## Conclusiones sobre las Ventajas del Modelado en Paralelo de Transferencia Radiativa
 
@@ -38,4 +34,5 @@ Eficiencia Computacional: El modelado en paralelo permite distribuir la carga co
 
 Escalabilidad: El uso de paralelismo facilita la escalabilidad del modelo, lo que significa que se puede aumentar el tamaño y la resolución de las simulaciones sin comprometer la eficiencia computacional. Esto es especialmente importante en el estudio de sistemas astrofísicos complejos como los discos protoplanetarios, donde se requiere un alto nivel de detalle.
 
-En resumen, el modelado en paralelo de la transferencia radiativa en discos protoplanetarios ofrece ventajas significativas en términos de eficiencia computacional y escalabilidad, lo que permite realizar simulaciones más precisas y detalladas de estos sistemas astrofísicos fundamentales.
+## Contribuir
+Las contribuciones son bienvenidas. Si tienes sugerencias o encuentras algún error, por favor crea un "issue" o envía un "pull request".
